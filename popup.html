@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Shorts Blocker</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🚫</div>
+            <h1>YouTube Shorts Blocker</h1>
+        </div>
+        
+        <div class="main-content">
+            <div class="toggle-section">
+                <label class="toggle-container">
+                    <input type="checkbox" id="enableToggle" checked>
+                    <span class="toggle-slider"></span>
+                    <span class="toggle-label">Block YouTube Shorts</span>
+                </label>
+            </div>
+            
+            <div class="status-section">
+                <div class="status-indicator" id="statusIndicator">
+                    <div class="status-dot active" id="statusDot"></div>
+                    <span class="status-text" id="statusText">Active</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="info">
+                <p class="version">v1.1</p>
+                <p class="description">Stay focused by blocking YouTube Shorts</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
